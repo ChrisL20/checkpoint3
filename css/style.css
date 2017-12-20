@@ -1,0 +1,93 @@
+body {
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+/* "Bitcoin Trillionare" */
+h1{
+  font-size: 50px;
+  color: white;
+}
+
+/* The literal coin image */
+#coin {
+  width: 10%;
+  height: auto;
+  display: block;
+  margin: auto;
+  transition: all ease-in-out;
+  cursor: pointer;
+  -webkit-animation:spin 20s linear infinite;
+    -moz-animation:spin 20s linear infinite;
+    animation:spin 20s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/* "BTC" the thing above the number */
+h2{
+  font-size: 30px;
+  color: white;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+
+/* The Number that actually changes */
+#currentTotal {
+  margin: auto;
+  width: 80px;
+  height: 100px;
+  font-size: 80px;
+  font-weight: bolder;
+  color: white;
+}
+
+p {
+  font-size: 40px;
+  color: white;
+}
+
+#hash {
+  color: red;
+  font-size: 30px;
+}
+
+#shop {
+  height: auto;
+}
+
+.button {
+  margin: 10px;
+  font-size: 20px;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+#buttonone {
+  background-color: black;
+  color: white;
+}
+#buttontwo {
+  background-color: black;
+  color: white;
+}
+#buttonthree {
+  background-color: black;
+  color: white;
+}
+#buttonfour {
+  background-color: black;
+  color: white;
+}
